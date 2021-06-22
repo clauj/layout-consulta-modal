@@ -20,7 +20,7 @@
     text-align: center;
 }
 
-.header > div > h2 {
+h2 {
     font-size: 20px;
     font-weight: 300;
 }
@@ -30,9 +30,10 @@
     font-weight: 1000;
 }
 
-.header > div > h3 {
+h3 {
     font-size: 14px;
     font-weight: 300;
+    margin-top: 20px;
 }
 
 .header-menu {
@@ -54,4 +55,40 @@
     border: 1px solid #707070;
     border-radius: 4px;
     box-shadow: 0px 1px 6px #00000029;
+}
+
+.section-cadastro {
+    max-width: 1000px;
+    margin-inline: auto;
+    margin-top: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #888888;
+}
+
+.section-cadastro input {
+    border: 1px solid #707070;
+    margin-bottom: 10px;
+}
+
+.cadastro-mensagens {
+    max-width: 520px;
+}
+
+.cadastro-mensagens > h2 {
+    margin-bottom: 15px;
+}
+
+.cadastro-form {
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-sexo {
+    display: flex;
 }
