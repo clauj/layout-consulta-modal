@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.main {
+main {
     margin-inline: auto;
 }
 
@@ -143,4 +143,114 @@ h3 {
     border: 1px solid #707070;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.section-produtos, .section-newsletter {
+    max-width: 960px;
+    margin-inline: auto;
+    margin-top: 80px;
+    border-top: 1px solid #888888; 
+}
+
+.container-produtos-titulo, .container-newsletter-titulo {
+    text-align: center;
+    margin-top: -21px;
+}
+
+.container-produtos-titulo h3, .container-newsletter-titulo h2 {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    color: #888888;
+    background-color: #FFF;
+    padding: 10px 17px;
+}
+
+.card-produto {
+    width: 150px;
+    color: #888888;
+}
+
+.card-produto img {
+    width: 100%;
+    border: 1px solid #707070;
+}
+
+.card-img {
+    width: 
+}
+
+.card-produto h3 {
+    font-size: 18px;
+    margin: 14px 0;
+}
+
+.card-produto p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-produto span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.button-comprar, .button-mais-produtos, .button-newsletter {
+    font-size: 16px;
+    padding: 6px 0;
+    color: #888888;
+    background-color: #FFF;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-comprar {
+    width: 100%;
+}
+
+.button-mais-produtos {
+    width: 260px;
+    display: block;
+    margin: 52px auto 128px auto;
+}
+
+.section-newsletter {
+    max-width: 960px;
+    margin-inline: auto;
+    color: #888888;
+}
+
+.container-newsletter-mensagem {
+    text-align: center;
+}
+
+.button-newsletter {
+    width: 260px;
+}
+
+.newsletter-form-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.newsletter-form-inputs {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    background-color: #707070;
+}
+
+.container-footer {
+    max-width: 260px;
+    margin-inline: auto;
+    padding: 10px;
+    color: #FFF;
+    font-size: 12px;
+    text-align: center;
 }
